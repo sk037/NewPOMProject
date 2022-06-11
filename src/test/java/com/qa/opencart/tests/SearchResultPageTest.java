@@ -32,6 +32,7 @@ public class SearchResultPageTest extends BaseTest {
 	void selectProductTest()
 	{
 		searchresult=accountPage.search("Mac");
+		System.out.println("====");
 		prodInfo=searchresult.selectProduct("MacBook Air");
 	}
 }
